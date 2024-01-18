@@ -139,14 +139,14 @@ int main()
     std::cout << "Enter Level:" << std::endl;
     std::cin >> l;
     if (pc != nullptr) {
-        for (m = 1; m <= l; m++) {
+        for (m = 1; m < l; m++) {
             pc->LevelUp();
         }
     }
 
     std::ofstream output;
-    output.open("Generated.txt");
-    output << "Name: " << pc->CharName << " Class: " << pc->ClassName << "\n";
+    output.open(pc->CharName + ".txt");
+    output << "Name: " << pc->CharName << " Class: " << pc->ClassName << " Level: " << pc->Level << "\n";
     output << "STR " << pc->Str << "/" << pc->ExceptionalStrength << " Damage Adjustment " << pc->DmgAdj << " Carry " << pc->Carry << " Max Press " << pc->MaxPress << " Open Doors " << pc->OpenDoor << " Bend Bars/Lift Gates " << pc->BBLG << "\n";
     output << "DEX " << pc->Dex << " Initiative " << pc->InitiativeAdj << "\n";
     output << "CON " << pc->Con << " HP Adjustment " << pc->HPAdj << " System Shock % " << pc->SystemShock << " Resurrection Survival % " << pc->Resurrection << "\n";

@@ -1,0 +1,10 @@
+Name: Bob Class: Thief Level: 10
+STR 12/0 Damage Adjustment 0 Carry 45 Max Press 140 Open Doors 7 Bend Bars/Lift Gates 4
+DEX 17 Initiative -2
+CON 12 HP Adjustment 0 System Shock % 80 Resurrection Survival % 85
+INT 17 Languages 6 Max Spell Level -1 Chance To Learn (Arcane) -1 Max Spells per Level (Arcane) -1
+WIS 11 Magic Defense Adjustment 0 Bonus Spells? 0 Spell Failure % (Divine) -1
+CHA 15 Max Henchmen 7 Leadership 3 Reaction Adjustment 3
+THAC0 - Melee 16 THAC0 - Ranged 14
+Base AC 10 HP 28
+Save vs PPDM 0 Save vs Rod/Staff/Wand 0 Save vs Petrification/Polymorph 0 Save vs Breath Weapon 0 Save vs. Spell 0

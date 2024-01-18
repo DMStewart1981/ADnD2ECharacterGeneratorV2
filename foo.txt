@@ -1,0 +1,10 @@
+Name: foo Class: FighterLevel: 9
+STR 16/0 Damage Adjustment 1 Carry 70 Max Press 195 Open Doors 9 Bend Bars/Lift Gates 10
+DEX 13 Initiative 0
+CON 15 HP Adjustment 1 System Shock % 90 Resurrection Survival % 94
+INT 14 Languages 4 Max Spell Level -1 Chance To Learn (Arcane) -1 Max Spells per Level (Arcane) -1
+WIS 15 Magic Defense Adjustment 1 Bonus Spells? 0 Spell Failure % (Divine) -1
+CHA 12 Max Henchmen 5 Leadership 0 Reaction Adjustment 1
+THAC0 - Melee 12 THAC0 - Ranged 12
+Base AC 10 HP 76
+Save vs PPDM 8 Save vs Rod/Staff/Wand 10 Save vs Petrification/Polymorph 9 Save vs Breath Weapon 9 Save vs. Spell 11
